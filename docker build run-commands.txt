@@ -1,7 +1,7 @@
 a) Script to clean old images:
 ------------------------------
 echo ">>>>>>>>> Start Clearing old docker images"
-if docker images -a | grep "khalednoh*" | awk '{print $1":"$2}' | xargs docker rmi -f; then
+if docker images -a | grep "1234qw*" | awk '{print $1":"$2}' | xargs docker rmi -f; then
     printf 'Clearing old images succeeded\n'
 else
     printf 'Clearing old images failed\n'
